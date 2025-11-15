@@ -314,9 +314,9 @@ class Crontab:
         return cls(
             minute=items[0],
             hour=items[1],
-            day_of_week=items[2],
-            day_of_month=items[3],
-            month_of_year=items[4],
+            day_of_week=items[4],
+            day_of_month=items[2],
+            month_of_year=items[3],
             tz=tz,
         )
 
